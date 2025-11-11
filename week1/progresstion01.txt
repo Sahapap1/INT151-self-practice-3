@@ -1,0 +1,13 @@
+Delay message 
+    เขียนฟังก์ชันให้ return Promise ที่จะ resolve หลังจากเวลาที่กำหนด (หน่วยเป็นมิลลิวินาที)
+    ฝึกสร้าง Promise เองด้วย (new Promise) ได้ทำความเข้าใจเกี่ยวกับ promise ว่าถ้าทำงานสำเร็จเรียกใช้ resolve ถ้าไม่สำเร็จเรียกใช้ reject
+    ใช้ setTimeout กับ resolve ได้อย่างเข้าใจมากขึ้น
+
+
+Promise chain
+    ให้เขียนฟังก์ชัน 3 ตัว: แต่ละอันใช้ setTimeout 1 วิ แล้ว log เช่น "Step 1 done" เรียงลำดับ Promise ให้ทำต่อกันโดยไม่ซ้อน callback เช่น
+    step1()
+        .then(step2)
+        .then(step3)
+        .then(() => console.log("All steps complete!"))
+    ฝึกการใช้ Promise ต่อกันเมื่อทำฟังก์ชั่นหนึ่งเสร็จจะไปทำฟังก์ชั่นสองต่อกันไปเรื่อยๆ เป็นพื้นฐานของการ fetch
