@@ -1,0 +1,191 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Paris",
+      "country": "France",
+      "title": "Explore the Wonders of Paris",
+      "short_description": "Paris, the capital of France, is renowned for its iconic landmarks, romantic ambiance, and rich cultural heritage.",
+      "description": "Paris, often hailed as the 'City of Lights,' is a global hub for art, fashion, and culture. Its charming streets, lined with cafes and boutiques, invite leisurely strolls. The city's architectural marvels, including the Eiffel Tower, the Louvre Museum, Notre Dame Cathedral, and the Arc de Triomphe, stand as testaments to its storied past. Visitors can indulge in world-class cuisine and experience the vibrant nightlife that Paris has to offer. Whether it's a romantic getaway or a cultural exploration, Paris promises an unforgettable journey.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD_IDL-3CCgqcbwp_X3mzPaF58tRk_B7oVfEo_7VagosSLJvSY1D6ODObzDTEld_5zBIXWh2WbUONkU7-_r7jxHbG-bAa3WDYLSxdmEa6kOb8QuDgsS498U20EXpvQWaeA_qjNyimMFKu_UOeOVUSViCPNxiDRdJmYkJ7SL0sVPDkyQFAqAoCLkJAeEXVjqIOl8qCKIiUwvfYA-kIuiTCLVeGMsJLHFw5V3ejhGl-Eo5e2E8008qsF9AZJhMb5I-HUzzOM3WqdVeP_2"
+    },
+    {
+      "id": 2,
+      "name": "Tokyo",
+      "country": "Japan",
+      "title": "Discover the Future in Tokyo",
+      "short_description": "Tokyo blends ancient traditions with cutting-edge modernity, offering a vibrant metropolis full of life.",
+      "description": "Tokyo, Japan’s bustling capital, is where ancient temples stand beside towering skyscrapers. Visitors can experience the tranquility of Meiji Shrine or the neon-lit streets of Shibuya and Shinjuku. Tokyo is also a paradise for food lovers, boasting Michelin-starred restaurants and authentic sushi bars. Whether exploring futuristic technology or traditional tea ceremonies, Tokyo offers an unforgettable mix of old and new.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD-DHybs5Rtl1SS7jM2hPlaRxeWtDx7jqxnY3ssUYhzw0Xp6bi0ReL-5bcNKbmCGHZol5gLLyAthkOGYhar4Pwew9QqPKrSz-vvw1RyXAUIU3arn27LWFflabzMRzK1XAqHpTwbPyazwBoxASi72nYIqPD7DVm__K7yPWz1bVf1BBLl2cTKECzFnuhjZjqBGa8lEb-oMeF-Grr3FUmP5npSBXua7OFwNOEnxxd3Zl61spF9dZQBvNwVHyoV08owzvV4BUI7igE-7Qch"
+    },
+    {
+      "id": 3,
+      "name": "Rome",
+      "country": "Italy",
+      "title": "Step Back in Time in Rome",
+      "short_description": "Rome is an open-air museum filled with ancient ruins, grand churches, and world-class cuisine.",
+      "description": "Rome, the Eternal City, offers a journey through history with iconic landmarks like the Colosseum, the Roman Forum, and the Pantheon. Visitors can toss a coin into the Trevi Fountain, explore Vatican City, and savor authentic Italian dishes. The city’s blend of art, architecture, and culinary delights makes Rome an unforgettable experience for every traveler.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA2tMp7QI9RTGlu5ozHB5eLHYBqIWgFaBZZpXyEpATMY5OE3TwVBcMLBHiwCZUrMuWTCv3OlhO4-96u1FiHTZ5NC8_W2saax-OFFTBG04ZY-0_h9G4lKjF0gaoMBQmHbUsnLATbfZ0PgV9hCeG2m39R2B3XrJctt5ShEpF6YMsWcQYlneufetlEn1zs5GwHolR-KjVegmUPvQX2cuez7kQ4RsX_JMKD84dLKWMwrhGmiNW_HqvGEKgjF83GcLCSQ-je1SM4NpIHNQX3"
+    },
+    {
+      "id": 4,
+      "name": "New York",
+      "country": "USA",
+      "title": "Experience the Energy of New York",
+      "short_description": "New York City, the city that never sleeps, is a melting pot of culture, art, and opportunity.",
+      "description": "From the Statue of Liberty to Times Square, New York City offers endless excitement. The city’s diverse neighborhoods, from Manhattan to Brooklyn, showcase cultures from around the world. Visitors can enjoy Broadway shows, stroll through Central Park, and explore world-famous museums like the Met. New York’s skyline and energy make it a destination like no other.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAVf9PtgWHwfZFSthwAaMinpRJ_kvNky91H2ghhrrjqz8oxwiPv4CJy1wyVeBFug25sY4iqwS1DjenJAK9Hjmrq1EE8eUpZT3RD9xzf4Y8JRQlY9eFjer_Wt5ECN7Jn8t7ic3xEbuiVACxmyoAzXbjXV1KMYRqnbv9cDl2uClzJB-ifa4LUsJLXmeE9LMmKTowtGhDmSkG2pTrTMtUVRZnRuwFveWJpeF1DUmsldIwKObOq_WK0jiexNnSQ_Gt8I7aO1jnkwfp6DXzZ"
+    },
+    {
+      "id": 5,
+      "name": "Sydney",
+      "country": "Australia",
+      "title": "Sail into the Beauty of Sydney",
+      "short_description": "Sydney combines stunning harbors, iconic landmarks, and a laid-back coastal lifestyle.",
+      "description": "Sydney, Australia’s largest city, is famous for the Sydney Opera House and the Sydney Harbour Bridge. Visitors can relax at Bondi Beach, take a ferry across the harbor, or explore the vibrant markets and restaurants. With its perfect mix of urban culture and natural beauty, Sydney is a paradise for travelers and adventurers alike.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbXIpl0yScVHutqJhvjncgl1iDZgR_c2EHCVehdHv7G5nx5r-ZaEx3l8EPtIk9_Be1CBsvanRKKxrZUTR3pMaTPjwqfbHST8IQtlBuiFkBwSUa9rLR_H8K3aN8lcDhZ9c5PMIAFBkPyqIUutfYSMO8EO-CJZjMdjkAFlx-O7PHocDmiyW_AF-fWqmNU4g9Uz870Sxbk8rNyJ0UeHHoIlnlj5S_tuY-HhWlxhbSswwSRFkEvrlITO2a2VD3lwe0BG8NmsbgtvVeSlHn"
+    },
+    {
+      "id": 6,
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "title": "Feel the Rhythm of Rio",
+      "short_description": "Rio de Janeiro dazzles visitors with its beaches, samba music, and vibrant carnival spirit.",
+      "description": "Rio de Janeiro, Brazil’s most famous city, is known for Copacabana Beach, Sugarloaf Mountain, and the Christ the Redeemer statue. Visitors can enjoy lively samba performances, colorful festivals, and breathtaking ocean views. The city’s joyful atmosphere and scenic beauty make Rio a must-visit for anyone seeking sun and celebration.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCSpG973msrd6KhGDpPQAQ_Ov54F7Fn4dVM1ukMd_3qSidIy2RsyzEurSlSuSERzhCLbfbu5PT_IOdXWXE0Q8NgizJVU40tV-KAp-6usTyBDpHSU4hfQYtD4s7OB9vOsCJuS1vfXpbycRf11GmR-5T6X2isGiH7NKfaEYjqXz85JOmfyXyQMZ3DkqoM_209muCYH6A6bpYR8pzOVzTpsmX4UKN8Kd_46N7fwnW2dWfSXbr2qsMZnCnC8RjUUfypTy_lJcru-CXfStD8"
+    },
+    {
+      "id": 7,
+      "name": "Moscow",
+      "country": "Russia",
+      "title": "Uncover the Majesty of Moscow",
+      "short_description": "Moscow blends imperial history with modern dynamism, creating a unique and powerful atmosphere.",
+      "description": "Moscow, Russia’s capital, is a city of striking contrasts — from the grandeur of the Kremlin and Red Square to its vibrant art scene and cosmopolitan nightlife. Visitors can admire St. Basil’s Cathedral, explore world-class museums, and experience authentic Russian cuisine. Moscow’s mix of history and modernity makes it one of Europe’s most fascinating capitals.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBCp0X8mtSYso1sHx_nt8DXjnTdSXVlWsf3ZCNsfPhEIN7G2J9_eeF6C6PcjxIVgF_WibOsrt-62gsUhWKLVjo_01odhshaf33CfVc5boHkireWbFBo0aHCB-5kZS-KNgyFWm5oXgFyEutTxuIGqN0udRXTLfi0eHd3ZBcK5y-c9lB39bD7mn-Yyd7NkGDDYX5wr4n3_Sn1MtZg8u5GHDIhGW7F7npTWDONvpt3eWCfOJGQ_pivpSTt49tPiz0xn9jEod1ARlWfweQZ"
+    },
+    {
+      "id": 8,
+      "name": "Cairo",
+      "country": "Egypt",
+      "title": "Journey Through Time in Cairo",
+      "short_description": "Cairo, the heart of Egypt, is home to ancient wonders and vibrant local life along the Nile.",
+      "description": "Cairo captivates travelers with its ancient pyramids, bustling bazaars, and the timeless Nile River. Visitors can explore the Great Pyramid of Giza, the Sphinx, and the Egyptian Museum filled with treasures of the pharaohs. The city’s lively atmosphere and deep historical roots make it a destination that bridges the past and present.",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCnc_7Dtmh3hbU-DxemfRIgi9iHvcBgPpMcczJE3bHZO6VF8spM9I-T8NS3MmQFAsnj8Ia8QXKULSvIFehdI7kv1jF9KXxdQM--MmAM_jjeWq_awXiMHYb5lYkdixWR-0KheDOAj1344QQzrZXK6RI3LY_JadaoWn5cVv0n8cZk4FRsuDIDeTQdi2FPuPYjiv2a6SDl25H2j9y-C61W1lQ0nUazSaOU6VtZf1IKW4YEnNG5jBzj1VFuglJO2pr4U6Qc6XxTZtXJjXfD"
+    }
+  ],
+  
+  "reviews": [
+    {
+      "id": 1,
+      "destinationId": 1,
+      "user": "Sahapap",
+      "rating": 5,
+      "comment": "Paris is truly magical! The Eiffel Tower at night was breathtaking."
+    },
+    {
+      "id": 2,
+      "destinationId": 1,
+      "user": "Alice",
+      "rating": 4,
+      "comment": "Loved the museums and food, but it can be quite crowded during peak season."
+    },
+    {
+      "id": 3,
+      "destinationId": 2,
+      "user": "Mina",
+      "rating": 5,
+      "comment": "Kyoto temples are beautiful and serene. A perfect mix of culture and nature."
+    },
+    {
+      "id": 4,
+      "destinationId": 2,
+      "user": "Takeshi",
+      "rating": 4,
+      "comment": "Springtime cherry blossoms are absolutely stunning. Would visit again!"
+    },
+    {
+      "id": 5,
+      "destinationId": 3,
+      "user": "Marco",
+      "rating": 5,
+      "comment": "Walking through the Colosseum felt like traveling back in time. Loved it!"
+    },
+    {
+      "id": 6,
+      "destinationId": 3,
+      "user": "Sophia",
+      "rating": 4,
+      "comment": "Great food and history everywhere. Just prepare for a lot of walking!"
+    },
+    {
+      "id": 7,
+      "destinationId": 4,
+      "user": "John",
+      "rating": 5,
+      "comment": "New York is full of energy! Times Square and Central Park were highlights."
+    },
+    {
+      "id": 8,
+      "destinationId": 4,
+      "user": "Emily",
+      "rating": 4,
+      "comment": "So much to do in NYC — Broadway, museums, and great food. A bit expensive though."
+    },
+    {
+      "id": 9,
+      "destinationId": 5,
+      "user": "Liam",
+      "rating": 5,
+      "comment": "Sydney’s harbor view is amazing! Loved the Opera House and Bondi Beach."
+    },
+    {
+      "id": 10,
+      "destinationId": 5,
+      "user": "Olivia",
+      "rating": 4,
+      "comment": "Beautiful city with friendly people, but the sun can be really strong!"
+    },
+    {
+      "id": 11,
+      "destinationId": 6,
+      "user": "Carlos",
+      "rating": 5,
+      "comment": "Rio’s beaches and music are incredible. The carnival spirit is everywhere!"
+    },
+    {
+      "id": 12,
+      "destinationId": 6,
+      "user": "Fernanda",
+      "rating": 4,
+      "comment": "Stunning views from Sugarloaf Mountain. Just be careful with safety at night."
+    },
+    {
+      "id": 13,
+      "destinationId": 7,
+      "user": "Ivan",
+      "rating": 5,
+      "comment": "Moscow is grand and full of history. The Kremlin and Red Square are must-sees."
+    },
+    {
+      "id": 14,
+      "destinationId": 7,
+      "user": "Anna",
+      "rating": 4,
+      "comment": "Beautiful city but a bit cold in winter. Great experience overall."
+    },
+    {
+      "id": 15,
+      "destinationId": 8,
+      "user": "Ahmed",
+      "rating": 5,
+      "comment": "Seeing the pyramids in person was a dream come true. Unforgettable trip!"
+    },
+    {
+      "id": 16,
+      "destinationId": 8,
+      "user": "Layla",
+      "rating": 4,
+      "comment": "Cairo is lively and full of culture, but traffic can be chaotic."
+    }
+  ]
+}

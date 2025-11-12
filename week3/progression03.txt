@@ -1,0 +1,15 @@
+สร้างเว็บไซต์ที่มีหลายหน้ามีหน้าที่เพื่อฝึกการจัดวาง โครงสร้าง project สำหรับ frontend และ ฝึกการใช้ fetch จัดการกับ error และ status code ต่างๆ
+
+สร้างเว็บไซต์ “Travel Info” สำหรับดูข้อมูลสถานที่ท่องเที่ยว โดย:
+
+Frontend ใช้ Vite + Vanilla JS
+
+Backend จำลองด้วย JSON Server
+
+ฝึกการ fetch API, status code handling, และ จัดโครงสร้างโปรเจกต์
+
+หน้า ui ใช้ sticht.io AI เจนโค้ด html พร้อมตกแต่งด้วย tailwind css 
+
+ได้ฝึก fetch จัดการโครงสร้างของโปรเจ็ค จัดการกับ error code คุ้นชินกับการใช้ promise async/await ได้ลองใช้ url parameter ทำความเข้าใจกับ layer ต่างๆ
+
+npm run start on root project for demo
