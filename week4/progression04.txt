@@ -1,0 +1,4 @@
+gameInventory สร้างหน้า ui inventory ในเกม CRUD ให้โชว์รูปภาพ item ต่างๆโดยใช้ json-server เป็น backend ฝึกการใช้ Fetch CRUD และฝึกจัดการกับ event ต่างๆโดยใช้
+ได้ฝึก อีเวนท์ลาก รูปภาพ เพื่อลบ item มีความเข้าใจกับพื้นฐานการแสดงข้อมูลการเข้าถึง object ต่างๆการดัดแปลง object 
+
+ิnpm run backend ใน folder backend เพื่อเริ่ม json-server

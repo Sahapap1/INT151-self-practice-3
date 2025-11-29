@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Game Bag Inventory UI</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#8A4FFF",
+                        "confirm": "#58ed53",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#1A1D21",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-[#EAEAEA]">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="flex flex-1 justify-center p-4 sm:p-6 lg:p-8">
+                <div class="layout-content-container flex w-full max-w-7xl flex-1">
+                    <div class="flex w-full gap-6">
+                        <aside
+                            class="w-full max-w-xs shrink-0 flex-col gap-4 bg-[#2C3036] rounded-xl p-4 hidden lg:flex">
+                            <div class="flex flex-col gap-4">
+                                <div class="flex gap-3 items-center">
+                                    <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-12"
+                                        data-alt="Stylized portrait of a fantasy character"
+                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCOn1ZQvRGKrN0s8iyNzUdIngM8p0vY3lDog_J6DgOAmEg5mP_eSWpfUimu8rBMy0FpHAOyCF9i0ZVziaUqGjbkEZ5i47fS1fnKI4FVf3jFqL_MEhYkliLFxZlAR8thOpwkMrI8OGZm1-ogkuvrdoslIkbhqP2M8oA0pcIOHdC7hfvHCil2vn0uwSMtxwXnP-OBWQsWtkEDSLIGA-GFXWeuctSRNo6xDwySKIKFB8koGjQjfWCRrYRKvjOOY859O5KlvSkyWPgfQDs");'>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <h1 class="text-white text-lg font-bold leading-normal">Aethelred</h1>
+                                        <p class="text-gray-400 text-sm font-normal leading-normal">Level 72 Shadowblade
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-2 pt-4 h-full justify-between">
+                                    <div
+                                        class="flex items-center gap-4 px-4 py-3 rounded-lg bg-primary/20 text-primary border border-primary mb-20">
+                                        <span class="material-symbols-outlined text-primary"
+                                            style="font-variation-settings: 'FILL' 1;">inventory_2</span>
+                                        <p class="text-primary text-sm font-bold leading-normal">All Items</p>
+                                    </div>
+                                    <div id="trash-zone" class="flex h-24 items-center px-4 py-3 rounded-lg bg-red-100 text-red-600 border border-red-500 hover:bg-red-200 transition">
+                                        <div class="flex items-center gap-4">
+                                            <span class="material-symbols-outlined text-red-600"
+                                                style="font-variation-settings: 'FILL' 1;">delete</span>
+                                            <p class="text-red-600 text-sm font-bold leading-normal">Drag Here To Remove Item</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                        <main class="flex flex-1 flex-col gap-4 bg-[#2C3036] rounded-xl p-6">
+                            <div class="flex flex-wrap justify-between items-center gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p
+                                        class="select-none text-white text-3xl font-black leading-tight tracking-[-0.033em] mb-4">
+                                        Inventory</p>
+
+                                </div>
+                            </div>
+                            <div class="flex-1 overflow-y-auto pr-2 -mr-2">
+                                <div id="items-container"
+                                    class="grid grid-cols-[repeat(auto-fill,minmax(80px,1fr))] gap-3">
+
+                                </div>
+                            </div>
+                        </main>
+                        <aside
+                            class="w-full max-w-sm shrink-0 flex-col gap-4 bg-[#2C3036] rounded-xl p-6 hidden xl:flex">
+
+                            <div class="flex flex-col h-full">
+                                <div id="randomed-item">
+
+                                </div>
+                                <!-- <div  class="w-40 aspect-square bg-background-dark rounded-lg flex items-center justify-center bg-cover bg-center"
+                                    data-alt="Close up of a mythical glowing sword"
+                                    style='background-image: url("./img/item/13.png")'>
+                                </div>
+                                <div class="flex flex-col gap-4 py-6">
+                                    <div class="flex flex-col gap-1">
+                                        <p class="text-orange-400 text-sm font-bold">Legendary Sword</p>
+                                        <h2 class="text-white text-3xl font-bold">Blade of Ruin</h2>
+                                        <button 
+                                            class="w-full bg-confirm text-white font-bold py-3 px-4 rounded-lg hover:bg-confirm/50 transition-colors">Get Item</button>
+                                    </div>
+
+                                </div> -->
+
+                                <div class="mt-auto flex flex-col gap-3">
+                                    <button id="random-btn"
+                                        class="w-full bg-primary text-white font-bold py-3 px-4 rounded-lg hover:bg-primary/90 transition-colors">Random
+                                        Item</button>
+                                    <!-- <button
+                                        class="w-full bg-background-dark text-gray-300 font-bold py-3 px-4 rounded-lg hover:bg-white/5 transition-colors">Drop</button> -->
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="main.js" type="module"></script>
+
+</html>

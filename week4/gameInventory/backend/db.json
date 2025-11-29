@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "id": "9",
+      "name": "Dragon Scale Egg",
+      "rarity": "Legendary",
+      "image": "img/item/9.png"
+    },
+    {
+      "id": "25",
+      "name": "Ancient Golden Ring",
+      "rarity": "Rare",
+      "image": "img/item/25.png"
+    },
+    {
+      "id": "32",
+      "name": "Royal Sapphire Crown",
+      "rarity": "Epic",
+      "image": "img/item/32.png"
+    },
+    {
+      "id": "5",
+      "name": "Crimson Beast Hide",
+      "rarity": "Uncommon",
+      "image": "img/item/5.png"
+    },
+    {
+      "id": "47",
+      "name": "Dragonbone War Key",
+      "rarity": "Legendary",
+      "image": "img/item/47.png"
+    },
+    {
+      "id": "42",
+      "name": "Golden Chalice of Riches",
+      "rarity": "Rare",
+      "image": "img/item/42.png"
+    },
+    {
+      "id": "13",
+      "name": "Crystal Ice Fang",
+      "rarity": "Rare",
+      "image": "img/item/13.png"
+    },
+    {
+      "id": "46",
+      "name": "Treasure Box of Wonders",
+      "rarity": "Epic",
+      "image": "img/item/46.png"
+    }
+  ],
+  "my-inventory": [
+    {
+      "id": "47",
+      "name": "Dragonbone War Key",
+      "rarity": "Legendary",
+      "image": "img/item/47.png",
+      "quantity": 1
+    }
+  ]
+}
